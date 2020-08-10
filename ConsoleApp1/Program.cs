@@ -9,7 +9,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Class1.TestString);
+            try
+            {
+                Console.WriteLine(Class1.TestString);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
     }
 }
