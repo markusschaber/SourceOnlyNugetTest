@@ -9,3 +9,5 @@ Now we have the Strings.resx file included in the NuGet Package, but it seems to
 The ConsoleApp1 fails with MissingManifestResourceException.
 
 It seems to be hard to find documentation about this. :-(
+
+Update: Now, it works, thanks to the help of @saucecontrol in https://gitter.im/dotnet/corefx# - thanks a lot!
